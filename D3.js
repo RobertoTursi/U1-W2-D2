@@ -148,13 +148,15 @@ if (number1 === number2 && number2 > number3) {
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA
-let valore = 3
-if(typeof valore === String) {
+/* SCRIVI QUI LA TUA RISPOSTA  
+let numero1 = 3
+console.log(typeof numero1)
+if(typeof numero1 === "number") {
   console.log("Il valore inserito è un numero")
 } else {
   console.log("Il valore inserito non è un numero")
-} */  //Chiedere in classe
+}
+*/
 
 
 /* ESERCIZIO 9
@@ -213,7 +215,7 @@ console.log(me)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA 
-delete me.lastName;
+delete me.lastName
 console.log(me)
 */
 
@@ -222,7 +224,7 @@ console.log(me)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA 
-delete me.skills[2]
+me.skills.pop
 console.log(me)
 */
 
@@ -230,10 +232,16 @@ console.log(me)
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA 
+const array1 = []
+array1.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+console.log(array1)
+*/
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* SCRIVI QUI LA TUA RISPOSTA 
+array1[9] = 100
+*/
