@@ -110,10 +110,10 @@ if (prezzoScontato <= 50) {
   Alla fine mostra il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA 
-let number1 = 3
-let number2 = 3
-let number3 = 3
+ /*SCRIVI QUI LA TUA RISPOSTA */
+let number1 = 20000
+let number2 = 43241
+let number3 = 334
 
 if (number1 === number2 && number2 > number3) {
   console.log(number1, number2, number3)
@@ -131,9 +131,9 @@ if (number1 === number2 && number2 > number3) {
   console.log(number1, number2, number3)
 } else if (number1 > number3 && number1 > number2 && number2 < number3) {
   console.log(number1, number3, number2)
-} else if (number1 > number3 && number1 < number2) {
+} else if (number2 > number3 && number2 > number1 && number1 > number3) {
   console.log(number2, number1, number3)
-} else if (number1 > number3 && number1 > number2 && number3 > number1) {
+} else if (number2 > number3 && number2 > number1 && number1 < number3) {
   console.log(number2, number3, number1)
 } else if (number3 > number1 && number3 > number2 && number2 > number1) {
   console.log(number3, number, number1)
@@ -142,7 +142,7 @@ if (number1 === number2 && number2 > number3) {
 } else {
   console.log(number1, number2, number3 + " hanno tutti e tre lo stesso valore")
 }
-*/
+
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
